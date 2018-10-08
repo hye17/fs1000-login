@@ -1,0 +1,145 @@
+* {
+	margin:0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Roboto';
+	background-image:url(../images/background.jpg);
+  background-size:cover;
+}
+
+
+.container {
+	width: 75%;
+	height: 90vh;
+	margin: 5vh auto;
+	border-radius: 10px;
+	background: rgba(255,255,255, .1);
+	box-shadow: 0px 16px 40px rgba(0,0,0,0.23);
+	display: flex;
+	justify-content: space-between;
+  max-width:800px;
+min-width:800px;
+   min-height:600px;
+   max-height:600px;
+
+}
+
+.welcome {
+	color: #fff;
+	padding: 20px 20px;
+	font-size: 20px;
+	font-weight: 100;
+	display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.welcome .autor {
+	font-size: 14px;
+	
+}
+.welcome .autor span {
+	font-weight: 400;
+}
+
+.welcome div, .welcome > span {
+    padding: 0px 20px;
+    color: rgba(255,255,255, .6);
+}
+
+.welcome .page {
+	color: #fff;
+	font-weight: 300;
+	text-shadow: 0 0 10px rgba(0,0,0,.15);
+	cursor: pointer;
+
+}
+
+.login {
+	 width: 45%;
+	
+	 border-radius: 5px;
+	 box-shadow: 0px 10px 20px rgba(0,0,0,0.23);
+	 display: flex;
+	 flex-direction: column;
+	 justify-content: center;
+   over-flow:hidden;
+   min-height:600px;
+   max-height:600px;
+}
+
+.login form div {
+	display: flex;
+	justify-content: center;
+	margin: 45px 0;
+}
+
+.login form div input {
+	border:none;
+	outline: none;
+	width: 80%;
+	background: transparent;
+	padding: 10px 10px;
+	box-shadow: 0px 10px 20px rgba(0,0,0,0.2);
+	color: #fff;
+	text-align: left;
+	font-size: 18px;
+	transition: all .3s ease;
+	border-radius: 5px;
+	font-weight: 100;
+}
+.login form div input:focus {
+	box-shadow: 0px 8px 40px rgba(0,0,0,0.29);
+}
+
+.login form .text {
+	font-size: 45px;
+	font-weight: 100;
+	color: #fff;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgba(255,255,255, .6);
+    font-weight: boldbold;
+
+    opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: rgba(255,255,255, .6);
+    font-weight: bold;
+
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: rgba(255,255,255, .6);
+    font-weight: bold;
+
+}
+
+.login form .button {
+	display: flex;
+	justify-content: space-around;
+}
+
+.login form .button button {
+    border:none;
+    background: transparent;
+    box-shadow: 0px 10px 20px rgba(0,0,0,0.2);
+    color: rgba(255,255,255, .8);
+    padding: 11px 51px; 
+    cursor: pointer;
+    transition: all .2s ease;
+    border-radius: 5px;
+    font-weight: 100;
+}
+.login form .button button:focus {
+	outline: none;
+}
+.login form .button button:hover {
+    box-shadow: 0px 8px 50px rgba(0,0,0,0.24);
+    color: #fff;
+    transform: scale(1.05);
+}
+
+
